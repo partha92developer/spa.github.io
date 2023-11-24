@@ -1,0 +1,153 @@
+@media only screen and (max-width: 990px) {
+    html{
+        font-size: 9.24px;
+    }
+    .section-banner{
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 767px) {
+    html{
+        font-size: 8.07px;
+    }
+    .section{
+        padding: 30px 0;
+    }
+    .section-banner{
+        text-align: center;
+    }
+    .section-title{
+        margin-bottom: 30px;
+    }
+    .row{
+        padding: 0;
+        margin: 0;
+    }
+    /* ========================================================== header start */
+    header.site-header {
+        padding: 15px 0;
+        /* position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 99; */
+        width: 100%;
+        -webkit-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.1);
+        -moz-box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.1);
+        box-shadow: 0px 5px 15px 0px rgba(0,0,0,0.1);
+    }
+    .menu-main {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        /* background-color: rgba(10, 9, 9, 0.95); */
+        background-color: #000;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        padding-top: 60px;
+        display: none;
+    }
+    .close-menu {display: block;}
+    ul.menu-ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    li.menu-li {
+        margin-right: 0px;
+    }
+    li.menu-li a{
+        color: #fff;
+    }
+    a.menu-name {
+        padding: 15px 0;
+        width: 100%;
+        display: block;
+        text-align: center;
+        color: #fff;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .mobile-menu i{
+        color: #000;
+    }
+    .close-menu i{
+        color: #fff;
+    }
+    li.menu-li, .register-li {
+        margin-right: 0;
+    }
+    /* ========================================================== header end */
+    /* ======================================================= section-banner start */
+    .section-banner .top-content {
+        margin-top: 0;
+    }
+    /* ========================================================= section-banner end */
+    /* ===================================================== section-x1 start */
+    .order-img-1{
+        margin: 30px 0;
+        height: auto!important;
+    }
+    .order-item {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .order-wrap {
+        margin-left: 0;
+        text-align: center;
+    }
+    .heding-text h3 {
+        margin-bottom: 30px;
+    }
+    /* ===================================================== section-x1 end */
+    /* ===================================================== section-x2 start */
+    img.line-x2 {
+        left: 0;
+    }
+    .organic {
+        padding-right: 0;
+    }
+    .section-x2 .img-wrap-x2 {
+        margin: 30px 0;
+    }
+    /* ===================================================== section-x2 end */
+    /* ===================================================== section-x3 start */
+    /* ===================================================== section-x3 end */
+    /* ===================================================== section-x6 start */
+    .beauty-content {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    /* ===================================================== section-x6 end */
+    /* ===================================================== section-x7 start */
+    section.section.section-x7::after {
+        display: none;
+    }
+    .row.row-x7 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .collection-wrap {
+        padding-left: 0;
+    }
+    /* ===================================================== section-x7 end */
+    /* ===================================================== footer start */
+    .footer-ul li a{
+        color: #000;
+    }
+    .site-footer .nav-menu {
+        display: block;
+        margin: 50px 0;
+    }
+
+    .row.footer-row {
+        display: flex;
+    }
+    .mobile-order {
+        order: -1;
+    }
+    /* ===================================================== footer end */
+
+    
+}
