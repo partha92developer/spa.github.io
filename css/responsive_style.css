@@ -114,6 +114,16 @@
     /* ===================================================== section-x2 end */
     /* ===================================================== section-x3 start */
     /* ===================================================== section-x3 end */
+    /* ===================================================== section-x5 start */
+    .section-x5 p {
+        margin-bottom: 30px;
+    }
+    .section-x5 .img-wrap-x5 {
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+        position: relative;
+    }
+    /* ===================================================== section-x5 end */
     /* ===================================================== section-x6 start */
     .beauty-content {
         padding-top: 20px;
