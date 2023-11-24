@@ -144,6 +144,9 @@
     .collection-wrap {
         padding-left: 0;
     }
+    .from-content {
+        min-height: 50vh;
+    }
     /* ===================================================== section-x7 end */
     /* ===================================================== footer start */
     .footer-ul li a{
