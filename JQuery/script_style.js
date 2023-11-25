@@ -1,7 +1,7 @@
 $(document).ready(function(){
     // scrollTop
 
-    $(".scrolltop").hide("slow");
+    $(".scrolltop").hide();
     $(window).scroll(function(){
         var x=$ (document).scrollTop();
         if(x>50){
